@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <title>Esercizio LocalStorage</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS v5.3.8 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <style>
+      @keyframes caduta {
+        to {
+          transform: translateY(110vh) rotate(720deg);
+        }
+      }
+
+      .cigarette {
+        position: fixed;
+        top: -50px;
+        font-size: 30px;
+        animation: caduta 4s linear forwards;
+      }
+    </style>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center my-5">
+            <h2>ESERCIZIO 1</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-4">
+            <section>
+              <div id="p-space">
+                <p>nessun utente</p>
+              </div>
+              <form class="d-flex justify-content-center gap-2" id="form_name">
+                <input type="text" id="name_field" />
+                <div class="col-2 text-center">
+                  <button type="submit" id="save-btn">SALVA</button>
+                </div>
+                <div class="col-2 text-center">
+                  <button type="button" id="del-btn">ELIMINA</button>
+                </div>
+              </form>
+            </section>
+          </div>
+        </div>
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <!--  -->
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center my-5">
+            <h2>ESERCIZIO 2</h2>
+          </div>
+          <div
+            id="counter_space"
+            class="d-flex justify-content-center mb-5"
+          ></div>
+          <div class="d-flex justify-content-center">
+            <button id="start-time">START</button>
+            <button id="reset-time">RESET</button>
+            <button id="array_bottoni">你好</button>
+          </div>
+          <div id="button-space" class=""></div>
+        </div>
+      </div>
+    </main>
+
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <footer>
+      <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Bundle (includes Popper) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
