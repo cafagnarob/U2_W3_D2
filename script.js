@@ -90,7 +90,7 @@ const btnstrano = document.getElementById("btnstrano")
 const munnezza = function () {
   const body = document.querySelector("body")
   body.innerHTML = `<h1 class=' text-center my-3' >Na MUNNEZZZZZ</h1>
-  <p>.cit</p>`
+  <p class=' text-center fw-bold mt-1' >.cit</p>`
   nonfuma()
 }
 
